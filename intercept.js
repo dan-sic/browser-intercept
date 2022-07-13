@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer");
 
 const scriptUrlPatterns = [
-  "https://auth.qa.mymojohealth.com/api/v1/shopify/products",
+  "https://auth.staging.mymojohealth.com/api/v1/shopify/products",
 ];
 
 async function interceptRequestsForPage(page) {
